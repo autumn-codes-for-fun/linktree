@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #ccccff;
+}
+section {
+  margin: auto;
+  padding: 60px 60px 60px 60px;
+}
+ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+   li {
+   margin-bottom: 40px; /* Espace entre chaque lien */
+ }
+
+.div__containt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ ul .ul__div {
+   display: block;
+   width: 200px; /* Largeur du lien */
+   height: 30px;
+   background: #e6e6ff;
+   border-radius: 30px;
+   border: none;
+   padding: 20px;
+   margin: 0 auto; /* Centrer le lien horizontalement */
+ }
+ ul .ul__div--rose{
+   background-color: #ffe6ff;
+ }
+ input{
+   display: block;
+   background: #e6e6ff;
+   border-radius: 30px;
+   border: none;
+   background-color: #ffe6ff;
+ }/*pour que le champs d'écriture se mélange au bouton/
+ /*ajouter une fonction ajouter un lien*/
